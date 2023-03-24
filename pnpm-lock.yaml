@@ -72,7 +72,7 @@ importers:
 
   packages/adapter-cloudflare-workers:
     specifiers:
-      '@cloudflare/kv-asset-handler': ^0.2.0
+      '@cloudflare/kv-asset-handler': ^0.3.0
       '@iarna/toml': ^2.2.5
       '@types/node': ^14.14.20
       esbuild: ^0.14.29
@@ -81,7 +81,7 @@ importers:
       '@iarna/toml': 2.2.5
       esbuild: 0.14.29
     devDependencies:
-      '@cloudflare/kv-asset-handler': 0.2.0
+      '@cloudflare/kv-asset-handler': 0.3.0
       '@types/node': 14.18.17
       typescript: 4.6.2
 
@@ -273,7 +273,7 @@ importers:
       svelte: ^3.44.2
       svelte-check: ^2.5.0
       svelte-preprocess: ^4.9.8
-      svelte2tsx: ~0.5.0
+      svelte2tsx: ~0.6.0
       tiny-glob: ^0.2.9
       typescript: ^4.6.4
       uvu: ^0.5.2
@@ -310,7 +310,7 @@ importers:
       svelte: 3.44.2
       svelte-check: 2.5.0_svelte@3.44.2
       svelte-preprocess: 4.9.8_wgapq35fvzy6mzjhiipmcyqsqu
-      svelte2tsx: 0.5.0_wgapq35fvzy6mzjhiipmcyqsqu
+      svelte2tsx: 0.6.10_wgapq35fvzy6mzjhiipmcyqsqu
       tiny-glob: 0.2.9
       typescript: 4.6.4
       uvu: 0.5.2
@@ -1216,8 +1216,8 @@ packages:
       prettier: 1.19.1
     dev: true
 
-  /@cloudflare/kv-asset-handler/0.2.0:
-    resolution: {integrity: sha512-MVbXLbTcAotOPUj0pAMhVtJ+3/kFkwJqc5qNOleOZTv6QkZZABDMS21dSrSlVswEHwrpWC03e4fWytjqKvuE2A==}
+  /@cloudflare/kv-asset-handler/0.3.0:
+    resolution: {integrity: sha512-9CB/MKf/wdvbfkUdfrj+OkEwZ5b7rws0eogJ4293h+7b6KX5toPwym+VQKmILafNB9YiehqY0DlNrDcDhdWHSQ==}
     dependencies:
       mime: 3.0.0
     dev: true
@@ -2481,7 +2481,7 @@ packages:
     dev: true
 
   /dedent-js/1.0.1:
-    resolution: {integrity: sha1-vuX7fJ5yfYXf+iRZDRDsGrElUwU=}
+    resolution: {integrity: sha512-OUepMozQULMLUmhxS95Vudo0jb0UchLimi3+pQ2plj61Fcy8axbP9hbiD4Sz6DPqn6XG3kfmziVfQ1rSys5AJQ==}
     dev: true
 
   /deep-extend/0.6.0:
@@ -5735,18 +5735,17 @@ packages:
   /svelte/3.44.2:
     resolution: {integrity: sha512-jrZhZtmH3ZMweXg1Q15onb8QlWD+a5T5Oca4C1jYvSURp2oD35h4A5TV6t6MEa93K4LlX6BkafZPdQoFjw/ylA==}
     engines: {node: '>= 8'}
-    dev: true
 
   /svelte/3.48.0:
     resolution: {integrity: sha512-fN2YRm/bGumvjUpu6yI3BpvZnpIm9I6A7HR4oUNYd7ggYyIwSA/BX7DJ+UXXffLp6XNcUijyLvttbPVCYa/3xQ==}
     engines: {node: '>= 8'}
     dev: true
 
-  /svelte2tsx/0.5.0_wgapq35fvzy6mzjhiipmcyqsqu:
-    resolution: {integrity: sha512-pgMMPzPylwzb/XTLXZQ0y6LUlYzVTep4537NJzHNyTbML864pfVS27iVFOgUK7XmKLyuIdG7tgweUZTsIwgKHw==}
+  /svelte2tsx/0.6.10_wgapq35fvzy6mzjhiipmcyqsqu:
+    resolution: {integrity: sha512-7CtUexhSHppSpLwVX7yI9OxJp7+esCNTuOF/CaVxWTgWp88QF/2/dCbpND/cTZmBxht5cFFQBwoLXXqFLdYe3Q==}
     peerDependencies:
-      svelte: ^3.24
-      typescript: ^4.1.2
+      svelte: ^3.55
+      typescript: ^4.9.4 || ^5.0.0
     dependencies:
       dedent-js: 1.0.1
       pascal-case: 3.1.2

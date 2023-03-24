@@ -42,7 +42,7 @@
 		"svelte": "^3.44.2",
 		"svelte-check": "^2.5.0",
 		"svelte-preprocess": "^4.9.8",
-		"svelte2tsx": "~0.5.0",
+		"svelte2tsx": "~0.6.0",
 		"tiny-glob": "^0.2.9",
 		"typescript": "^4.6.4",
 		"uvu": "^0.5.2"
